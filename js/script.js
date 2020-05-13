@@ -661,7 +661,7 @@ function getHitokoto() {
 				id: 'yiyanmotto',
 				duration: 100,
 				effact: 'easeOut',
-				content: '生活不止眼前的苟且'
+				content: '无悔无始终，方窥圣人相'
 			})
 		}
 	})
