@@ -78,7 +78,7 @@
         <hgroup class="introduce">
           <h5 class="nickname" id="name">YHJ</h5>
           
-            <div id="yiyanmotto" class="motto">&nbsp;</div>
+            <div id="mymotto" class="motto"></div>
           
         </hgroup>
       </div>
@@ -352,7 +352,12 @@ postshow();
 
 /* 座右铭 */
 
-   getHitokoto();
+    elasticText({
+        id: "mymotto",
+        duration: 100,
+        effact: "easeOut",
+        content: ""
+    });
 
 
 
