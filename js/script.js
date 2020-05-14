@@ -651,7 +651,7 @@ function get_hitokoto() {
                 id: 'yiyanmotto',
                 duration: 100,
                 effact: 'easeOut',
-                content: '胜者生存下去，败者坠入地狱'
+                content: '胜者生存下去,败者坠入地狱'
             });
         }
     });
