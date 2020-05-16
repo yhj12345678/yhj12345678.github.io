@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-05-16T14:17:45.247Z</updated>
+  <updated>2020-05-16T14:26:13.834Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2020/05/16/%E7%AC%AC%E4%B8%89%E8%AF%BE/"/>
     <id>http://yoursite.com/2020/05/16/%E7%AC%AC%E4%B8%89%E8%AF%BE/</id>
     <published>2020-05-16T07:38:55.569Z</published>
-    <updated>2020-05-16T14:17:45.247Z</updated>
+    <updated>2020-05-16T14:26:13.834Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a><p><img src="/2020/05/16/%E7%AC%AC%E4%B8%89%E8%AF%BE/1.PNG" alt="1"></p><p>手工操作阶段主要缺点:用户独占全机，人机速度矛盾导致资源率极低</p><p>单道批处理系统:引入脱机输入/输出技术(用磁带完成),并监督程序负责控制作业的输入输出</p><p>主要优点:缓解了一定程度的人机速度矛盾，资源利用率有所提升。</p><p>主要缺点:内存中仅有一道程序运行，只有该程序运行结束之后才能调入下一道程序。CPU有大量的时间是在空闲I/O完成。资源利用率依然很低。</p><p>多道批处理系统:</p><p>主要优点:多道程序并发执行，共享计算机资源，资源利用率大幅提升，CPU和其它资源保持忙碌状态，系统吞吐量增大。</p><p>主要缺点: 用户响应时间长，没有人机交互功能（用户提交自己的作业之后就只能等待计算机处理完成，中间不能控制自己的作业执行）</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
