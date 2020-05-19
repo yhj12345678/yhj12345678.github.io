@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-05-17T15:54:31.547Z</updated>
+  <updated>2020-05-19T08:47:58.308Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2020/05/17/%E7%AC%AC%E5%9B%9B%E8%AF%BE/"/>
     <id>http://yoursite.com/2020/05/17/%E7%AC%AC%E5%9B%9B%E8%AF%BE/</id>
     <published>2020-05-17T15:06:16.013Z</published>
-    <updated>2020-05-17T15:54:31.547Z</updated>
+    <updated>2020-05-19T08:47:58.308Z</updated>
     
     <content type="html"><![CDATA[<p>  操作系统的运行机制和体系结构<br>  <img src="/2020/05/17/%E7%AC%AC%E5%9B%9B%E8%AF%BE/1.PNG" alt="1"><br>  指令就是处理器（cpu）能识别、执行的最基本命令</p><p>  <img src="/2020/05/17/%E7%AC%AC%E5%9B%9B%E8%AF%BE/3.PNG" alt="3"></p><p>  两种处理器状态<br><img src="/2020/05/17/%E7%AC%AC%E5%9B%9B%E8%AF%BE/2.PNG" alt="2"></p><p><img src="/2020/05/17/%E7%AC%AC%E5%9B%9B%E8%AF%BE/4.PNG" alt="4"></p><p><img src="/2020/05/17/%E7%AC%AC%E5%9B%9B%E8%AF%BE/5.PNG" alt="5"><br>内核是计算机配置的底层软件，是操作系统最基本、最核心的部分<br>实现操作系统内核功能的那些程序就是内核程序。<br><img src="/2020/05/17/%E7%AC%AC%E5%9B%9B%E8%AF%BE/6.PNG" alt="6"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
