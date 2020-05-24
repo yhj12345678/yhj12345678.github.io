@@ -55,18 +55,22 @@ src="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js">
       
       
   <article class="markdown-body">
-    <h2 id="post-title">第十课
+    <h2 id="post-title">第十一课
        
-        <div id="post-time" datetime="2020-05-22T09:54:38.924Z">
-          2020-05-22
+        <div id="post-time" datetime="2020-05-24T13:42:26.563Z">
+          2020-05-24
         </div>
       
     </h2>
-    <p>进程通信</p>
+    <blockquote>
+<p>线程、多线程模型**</p>
 <a id="more"></a>
-<p><img src="/2020/05/22/%E7%AC%AC%E5%8D%81%E8%AF%BE/1.PNG" alt="1"><br>进程通信是指进程之间的信息交换<br>进程就是分配系统资源的单位（包括内存地址空间），因此各进程拥有的内存地址空间相互独立。<br>为了保证安全，一个进程不能直接访问另一个进程的地址空间。<br><img src="/2020/05/22/%E7%AC%AC%E5%8D%81%E8%AF%BE/2.PNG" alt="2"><br><img src="/2020/05/22/%E7%AC%AC%E5%8D%81%E8%AF%BE/3.PNG" alt=""><br><u><strong>消息传递</strong></u><br>进程间的数据交换以格式化的消息为单位，进程通过操作系统提供的“发送消息/接受消息”两个原语进行数据交换。</p>
-<p><img src="/2020/05/22/%E7%AC%AC%E5%8D%81%E8%AF%BE/4.PNG" alt=""></p>
-<p><img src="/2020/05/22/%E7%AC%AC%E5%8D%81%E8%AF%BE/5.PNG" alt=""></p>
+
+<figure class="highlight plain"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">什么是线程，为什么要引入线程？</span><br><span class="line">  传统的进程是程序执行流的最小单位，但是引入线程后，线程成为了程序执行流的最小单位。</span><br><span class="line">  线程是一个基本的CPU执行单元，也是程序执行流的最小单位。引入线程后，不仅是进程之间可以并发，进程内的各线程之间也可以并发，从而提高了系统的并发度，使得一个进程内也可以并发处理各种任务。</span><br><span class="line">  引入线程后，进程只作为除CPU之外的系统资源的分配单元</span><br></pre></td></tr></tbody></table></figure>
+</blockquote>
+<figure class="highlight plain"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">引入线程机制后，有什么变化？</span><br></pre></td></tr></tbody></table></figure>
+
+<p><img src="/2020/05/24/%E7%AC%AC%E5%8D%81%E4%B8%80%E8%AF%BE/1.PNG" alt="1"></p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -94,12 +98,12 @@ src="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js">
       <div id="page-prev-next">
         
         
-          <a id="page-prev-a" href="/2020/05/24/%E7%AC%AC%E5%8D%81%E4%B8%80%E8%AF%BE/"> ← 第十一课 </a>
+          <div></div> 
         
 
         
         
-          <a id="page-next-a" href="/2020/05/22/%E7%AC%AC%E4%B9%9D%E8%AF%BE/"> 第九课 → </a>
+          <a id="page-next-a" href="/2020/05/22/%E7%AC%AC%E5%8D%81%E8%AF%BE/"> 第十课 → </a>
         
       </div>
     
