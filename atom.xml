@@ -227,4 +227,38 @@
     
   </entry>
   
+  <entry>
+    <title>My awesome title</title>
+    <link href="http://yoursite.com/2016/10/12/%E7%AC%AC%E4%B8%80%E8%AF%BE%20-%20%E5%89%AF%E6%9C%AC/"/>
+    <id>http://yoursite.com/2016/10/12/%E7%AC%AC%E4%B8%80%E8%AF%BE%20-%20%E5%89%AF%E6%9C%AC/</id>
+    <published>2016-10-12T10:38:45.000Z</published>
+    <updated>2020-05-26T11:12:12.271Z</updated>
+    
+    <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;script&gt;
+        document.querySelectorAll(&#39;.github-emoji&#39;)
+          .forEach(el =&gt; {
+            if (!el.dataset.src) { return; }
+        
+      
+    
+    </summary>
+    
+    
+      <category term="分类1" scheme="http://yoursite.com/categories/%E5%88%86%E7%B1%BB1/"/>
+    
+      <category term="分类2" scheme="http://yoursite.com/categories/%E5%88%86%E7%B1%BB1/%E5%88%86%E7%B1%BB2/"/>
+    
+    
+      <category term="标签1" scheme="http://yoursite.com/tags/%E6%A0%87%E7%AD%BE1/"/>
+    
+      <category term="标签2" scheme="http://yoursite.com/tags/%E6%A0%87%E7%AD%BE2/"/>
+    
+  </entry>
+  
 </feed>
