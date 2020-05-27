@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-05-27T02:54:17.536Z</updated>
+  <updated>2020-05-26T10:50:59.874Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>88888</title>
+    <link href="http://yoursite.com/2020/05/27/88888/"/>
+    <id>http://yoursite.com/2020/05/27/88888/</id>
+    <published>2020-05-27T07:26:16.605Z</published>
+    <updated>2020-05-26T10:50:59.874Z</updated>
+    
+    <content type="html"><![CDATA[<p>​                               操作系统的概念</p><p>   操作系统是指控制和管理整个计算机系统的硬件和软件资源，并合理的组织调度计算机的工作和资源的分配，<br>   以提供给用户和其他软件方便的接口和环境，它是计算机系统中最基本的系统软件。</p><a id="more"></a><p><img src="/2020/05/27/88888/1.PNG" alt="1"></p><p>​                         操作系统的功能和目标<br>进程是一个程序的执行过程。执行前需要将该程序放到内存中，才能被cpu处理。</p><p><img src="/2020/05/27/88888/2.PNG" alt="2"></p><p><img src="/2020/05/27/88888/3.PNG" alt="3"></p><p><img src="/2020/05/27/88888/4.PNG" alt="4"></p><p><img src="/2020/05/27/88888/5.PNG" alt="5"><br>广义指令=系统调用命令=广义指令<br><img src="/2020/05/27/88888/6.PNG" alt="6"><br><img src="/2020/05/27/88888/7.PNG" alt="7"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;​                               操作系统的概念&lt;/p&gt;
+&lt;p&gt;   操作系统是指控制和管理整个计算机系统的硬件和软件资源，并合理的组织调度计算机的工作和资源的分配，&lt;br&gt;   以提供给用户和其他软件方便的接口和环境，它是计算机系统中最基本的系统软件。&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>第十五课</title>
