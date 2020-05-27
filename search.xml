@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>第一课</title>
-    <url>/2020/05/15/%E7%AC%AC%E4%B8%80%E8%AF%BE/</url>
-    <content><![CDATA[<p>​                               操作系统的概念</p>
-<p>   操作系统是指控制和管理整个计算机系统的硬件和软件资源，并合理的组织调度计算机的工作和资源的分配，<br>   以提供给用户和其他软件方便的接口和环境，它是计算机系统中最基本的系统软件。</p>
+    <title>第九课</title>
+    <url>/2020/05/22/%E7%AC%AC%E4%B9%9D%E8%AF%BE/</url>
+    <content><![CDATA[<p><strong>进程控制</strong></p>
 <a id="more"></a>
-<p><img src="/2020/05/15/%E7%AC%AC%E4%B8%80%E8%AF%BE/1.PNG" alt="1"></p>
-<p>​                         操作系统的功能和目标<br>进程是一个程序的执行过程。执行前需要将该程序放到内存中，才能被cpu处理。</p>
-<p><img src="/2020/05/15/%E7%AC%AC%E4%B8%80%E8%AF%BE/2.PNG" alt="2"></p>
-<p><img src="/2020/05/15/%E7%AC%AC%E4%B8%80%E8%AF%BE/3.PNG" alt="3"></p>
-<p><img src="/2020/05/15/%E7%AC%AC%E4%B8%80%E8%AF%BE/4.PNG" alt="4"></p>
-<p><img src="/2020/05/15/%E7%AC%AC%E4%B8%80%E8%AF%BE/5.PNG" alt="5"><br>广义指令=系统调用命令=广义指令<br><img src="/2020/05/15/%E7%AC%AC%E4%B8%80%E8%AF%BE/6.PNG" alt="6"><br><img src="/2020/05/15/%E7%AC%AC%E4%B8%80%E8%AF%BE/7.PNG" alt="7"></p>
+
+<p><img src="/2020/05/22/%E7%AC%AC%E4%B9%9D%E8%AF%BE/1.PNG" alt="1"></p>
+<p><img src="/2020/05/22/%E7%AC%AC%E4%B9%9D%E8%AF%BE/2.PNG" alt="2"></p>
+<p><img src="/2020/05/22/%E7%AC%AC%E4%B9%9D%E8%AF%BE/3.PNG" alt="3"></p>
+<p><img src="/2020/05/22/%E7%AC%AC%E4%B9%9D%E8%AF%BE/4.PNG" alt="4"></p>
+<p><img src="/2020/05/22/%E7%AC%AC%E4%B9%9D%E8%AF%BE/5.PNG" alt="5"></p>
+<p><img src="/2020/05/22/%E7%AC%AC%E4%B9%9D%E8%AF%BE/6.PNG" alt="6"></p>
+<p><img src="/2020/05/22/%E7%AC%AC%E4%B9%9D%E8%AF%BE/7.PNG" alt="7"></p>
+<p><img src="/2020/05/22/%E7%AC%AC%E4%B9%9D%E8%AF%BE/8.PNG" alt="8"></p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -98,19 +100,51 @@
       </script>]]></content>
   </entry>
   <entry>
-    <title>第九课</title>
-    <url>/2020/05/22/%E7%AC%AC%E4%B9%9D%E8%AF%BE/</url>
-    <content><![CDATA[<p><strong>进程控制</strong></p>
+    <title>第一课</title>
+    <url>/2020/05/15/%E7%AC%AC%E4%B8%80%E8%AF%BE/</url>
+    <content><![CDATA[<p>​                               操作系统的概念</p>
+<p>   操作系统是指控制和管理整个计算机系统的硬件和软件资源，并合理的组织调度计算机的工作和资源的分配，<br>   以提供给用户和其他软件方便的接口和环境，它是计算机系统中最基本的系统软件。</p>
+<a id="more"></a>
+<p><img src="/2020/05/15/%E7%AC%AC%E4%B8%80%E8%AF%BE/1.PNG" alt="1"></p>
+<p>​                         操作系统的功能和目标<br>进程是一个程序的执行过程。执行前需要将该程序放到内存中，才能被cpu处理。</p>
+<p><img src="/2020/05/15/%E7%AC%AC%E4%B8%80%E8%AF%BE/2.PNG" alt="2"></p>
+<p><img src="/2020/05/15/%E7%AC%AC%E4%B8%80%E8%AF%BE/3.PNG" alt="3"></p>
+<p><img src="/2020/05/15/%E7%AC%AC%E4%B8%80%E8%AF%BE/4.PNG" alt="4"></p>
+<p><img src="/2020/05/15/%E7%AC%AC%E4%B8%80%E8%AF%BE/5.PNG" alt="5"><br>广义指令=系统调用命令=广义指令<br><img src="/2020/05/15/%E7%AC%AC%E4%B8%80%E8%AF%BE/6.PNG" alt="6"><br><img src="/2020/05/15/%E7%AC%AC%E4%B8%80%E8%AF%BE/7.PNG" alt="7"></p>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+  </entry>
+  <entry>
+    <title>第五课</title>
+    <url>/2020/05/19/%E7%AC%AC%E4%BA%94%E8%AF%BE/</url>
+    <content><![CDATA[<p>中断和异常</p>
 <a id="more"></a>
 
-<p><img src="/2020/05/22/%E7%AC%AC%E4%B9%9D%E8%AF%BE/1.PNG" alt="1"></p>
-<p><img src="/2020/05/22/%E7%AC%AC%E4%B9%9D%E8%AF%BE/2.PNG" alt="2"></p>
-<p><img src="/2020/05/22/%E7%AC%AC%E4%B9%9D%E8%AF%BE/3.PNG" alt="3"></p>
-<p><img src="/2020/05/22/%E7%AC%AC%E4%B9%9D%E8%AF%BE/4.PNG" alt="4"></p>
-<p><img src="/2020/05/22/%E7%AC%AC%E4%B9%9D%E8%AF%BE/5.PNG" alt="5"></p>
-<p><img src="/2020/05/22/%E7%AC%AC%E4%B9%9D%E8%AF%BE/6.PNG" alt="6"></p>
-<p><img src="/2020/05/22/%E7%AC%AC%E4%B9%9D%E8%AF%BE/7.PNG" alt="7"></p>
-<p><img src="/2020/05/22/%E7%AC%AC%E4%B9%9D%E8%AF%BE/8.PNG" alt="8"></p>
+<p><img src="/2020/05/19/%E7%AC%AC%E4%BA%94%E8%AF%BE/1.jpg" alt="1"></p>
+<p><img src="/2020/05/19/%E7%AC%AC%E4%BA%94%E8%AF%BE/2.jpg" alt="2"></p>
+<p><img src="/2020/05/19/%E7%AC%AC%E4%BA%94%E8%AF%BE/3.jpg" alt="3"></p>
+<p><img src="/2020/05/19/%E7%AC%AC%E4%BA%94%E8%AF%BE/4.jpg" alt="4"></p>
+<p><img src="/2020/05/19/%E7%AC%AC%E4%BA%94%E8%AF%BE/5.jpg" alt="5"></p>
+<p><img src="/2020/05/19/%E7%AC%AC%E4%BA%94%E8%AF%BE/6.jpg" alt="6"></p>
+<p><img src="/2020/05/19/%E7%AC%AC%E4%BA%94%E8%AF%BE/7.jpg" alt="7"></p>
+<p><img src="/2020/05/19/%E7%AC%AC%E4%BA%94%E8%AF%BE/8.jpg" alt="8"></p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -198,40 +232,6 @@
       </script>]]></content>
   </entry>
   <entry>
-    <title>第五课</title>
-    <url>/2020/05/19/%E7%AC%AC%E4%BA%94%E8%AF%BE/</url>
-    <content><![CDATA[<p>中断和异常</p>
-<a id="more"></a>
-
-<p><img src="/2020/05/19/%E7%AC%AC%E4%BA%94%E8%AF%BE/1.jpg" alt="1"></p>
-<p><img src="/2020/05/19/%E7%AC%AC%E4%BA%94%E8%AF%BE/2.jpg" alt="2"></p>
-<p><img src="/2020/05/19/%E7%AC%AC%E4%BA%94%E8%AF%BE/3.jpg" alt="3"></p>
-<p><img src="/2020/05/19/%E7%AC%AC%E4%BA%94%E8%AF%BE/4.jpg" alt="4"></p>
-<p><img src="/2020/05/19/%E7%AC%AC%E4%BA%94%E8%AF%BE/5.jpg" alt="5"></p>
-<p><img src="/2020/05/19/%E7%AC%AC%E4%BA%94%E8%AF%BE/6.jpg" alt="6"></p>
-<p><img src="/2020/05/19/%E7%AC%AC%E4%BA%94%E8%AF%BE/7.jpg" alt="7"></p>
-<p><img src="/2020/05/19/%E7%AC%AC%E4%BA%94%E8%AF%BE/8.jpg" alt="8"></p>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
-  </entry>
-  <entry>
     <title>第六课</title>
     <url>/2020/05/19/%E7%AC%AC%E5%85%AD%E8%AF%BE/</url>
     <content><![CDATA[<p>YHJ</p>
@@ -274,47 +274,14 @@
 </blockquote>
 <p>​              引入线程机制后，有什么变化？</p>
 <p><img src="/2020/05/24/%E7%AC%AC%E5%8D%81%E4%B8%80%E8%AF%BE/1.PNG" alt="1"></p>
-<p><img src="/2020/05/24/%E7%AC%AC%E5%8D%81%E4%B8%80%E8%AF%BE/2.PNG" alt></p>
-<p><img src="/2020/05/24/%E7%AC%AC%E5%8D%81%E4%B8%80%E8%AF%BE/3.PNG" alt></p>
+<p><img src="/2020/05/24/%E7%AC%AC%E5%8D%81%E4%B8%80%E8%AF%BE/2.PNG" alt=""></p>
+<p><img src="/2020/05/24/%E7%AC%AC%E5%8D%81%E4%B8%80%E8%AF%BE/3.PNG" alt=""></p>
 <p><img src="/2020/05/24/%E7%AC%AC%E5%8D%81%E4%B8%80%E8%AF%BE/4.PNG" alt="4"></p>
 <p><img src="/2020/05/24/%E7%AC%AC%E5%8D%81%E4%B8%80%E8%AF%BE/5.PNG" alt="5"></p>
 <p><strong>重点重点重点:</strong><br>操作系统只”看得见”内核级线程，因此只有内核级线程才是处理机分配的单位</p>
-<h3 id="多线程模型"><a href="#多线程模型" class="headerlink" title="多线程模型"></a><strong>多线程模型</strong></h3><p><img src="/2020/05/24/%E7%AC%AC%E5%8D%81%E4%B8%80%E8%AF%BE/6.PNG" alt></p>
-<p><img src="/2020/05/24/%E7%AC%AC%E5%8D%81%E4%B8%80%E8%AF%BE/7.PNG" alt></p>
-<p><img src="/2020/05/24/%E7%AC%AC%E5%8D%81%E4%B8%80%E8%AF%BE/8.PNG" alt></p>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
-  </entry>
-  <entry>
-    <title>第十二课</title>
-    <url>/2020/05/26/%E7%AC%AC%E5%8D%81%E4%BA%8C%E8%AF%BE/</url>
-    <content><![CDATA[<h2 id="处理机调度的概念与层次"><a href="#处理机调度的概念与层次" class="headerlink" title="处理机调度的概念与层次"></a>处理机调度的概念与层次</h2><h3 id="调度的基本概念"><a href="#调度的基本概念" class="headerlink" title="调度的基本概念"></a>调度的基本概念</h3><p>***当有一堆人物要处理，但由于资源有限，这些事情没法同时处理。这就需要确定某种规则来决定处理这些人物的顺序，这就是“调度”研究的问题。</p>
-<p>***在多道程序系统中，进程的数量往往多于处理机的个数的，这样不可能同时并行地处理各个进程。处理机调度，就是从就绪队列中按照一定的算法选择一个进程并将处理机分配给它运行，以实现进程的并发执行</p>
-<h4 id="高级调度"><a href="#高级调度" class="headerlink" title="高级调度"></a>高级调度</h4><p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E4%BA%8C%E8%AF%BE/1.PNG" alt></p>
-<h3 id="中级调度"><a href="#中级调度" class="headerlink" title="中级调度"></a>中级调度</h3><p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E4%BA%8C%E8%AF%BE/2.PNG" alt></p>
-<p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E4%BA%8C%E8%AF%BE/3.PNG" alt></p>
-<h3 id="低级调度"><a href="#低级调度" class="headerlink" title="低级调度"></a>低级调度</h3><p>低级调度(进程调度)，其主要任务是按照某种方法和策略从就绪队列中选取一个进程，将处理机分配给它。</p>
-<p>进程调度是操作系统中最基本的一种调度，在一般的操作系统中都必须配置进程调度。</p>
-<p>进程调度的频率很高，一般几十毫秒一次。</p>
-<p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E4%BA%8C%E8%AF%BE/4.PNG" alt></p>
-<p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E4%BA%8C%E8%AF%BE/5.PNG" alt="5"></p>
+<h3 id="多线程模型"><a href="#多线程模型" class="headerlink" title="多线程模型"></a><strong>多线程模型</strong></h3><p><img src="/2020/05/24/%E7%AC%AC%E5%8D%81%E4%B8%80%E8%AF%BE/6.PNG" alt=""></p>
+<p><img src="/2020/05/24/%E7%AC%AC%E5%8D%81%E4%B8%80%E8%AF%BE/7.PNG" alt=""></p>
+<p><img src="/2020/05/24/%E7%AC%AC%E5%8D%81%E4%B8%80%E8%AF%BE/8.PNG" alt=""></p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -338,72 +305,14 @@
   <entry>
     <title>第十三课</title>
     <url>/2020/05/26/%E7%AC%AC%E5%8D%81%E4%B8%89%E8%AF%BE/</url>
-    <content><![CDATA[<h2 id="进程调度的时机切换与过程调度方式"><a href="#进程调度的时机切换与过程调度方式" class="headerlink" title="进程调度的时机切换与过程调度方式"></a>进程调度的时机切换与过程调度方式</h2><h3 id="进程调度的时机"><a href="#进程调度的时机" class="headerlink" title="进程调度的时机"></a>进程调度的时机</h3><p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E4%B8%89%E8%AF%BE/1.png" alt></p>
+    <content><![CDATA[<h2 id="进程调度的时机切换与过程调度方式"><a href="#进程调度的时机切换与过程调度方式" class="headerlink" title="进程调度的时机切换与过程调度方式"></a>进程调度的时机切换与过程调度方式</h2><h3 id="进程调度的时机"><a href="#进程调度的时机" class="headerlink" title="进程调度的时机"></a>进程调度的时机</h3><p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E4%B8%89%E8%AF%BE/1.png" alt=""></p>
 <p>  进程在操作系统内核程序临界区中不能进行调度与切换<br>  临界资源：一个时间段内只允许一个进程使用的资源。各进程需要互斥的访问临界资源。<br>  临界区：访问临界资源的那段代码</p>
-<p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E4%B8%89%E8%AF%BE/2.png" alt></p>
-<h3 id="进程调度的方式"><a href="#进程调度的方式" class="headerlink" title="进程调度的方式"></a>进程调度的方式</h3><p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E4%B8%89%E8%AF%BE/3.png" alt></p>
+<p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E4%B8%89%E8%AF%BE/2.png" alt=""></p>
+<h3 id="进程调度的方式"><a href="#进程调度的方式" class="headerlink" title="进程调度的方式"></a>进程调度的方式</h3><p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E4%B8%89%E8%AF%BE/3.png" alt=""></p>
 <p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E4%B8%89%E8%AF%BE/4.png" alt="4"></p>
-<h3 id="进程的切换与过程"><a href="#进程的切换与过程" class="headerlink" title="进程的切换与过程"></a>进程的切换与过程</h3><p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E4%B8%89%E8%AF%BE/5.png" alt></p>
-<p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E4%B8%89%E8%AF%BE/6.png" alt></p>
-<p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E4%B8%89%E8%AF%BE/7.png" alt></p>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
-  </entry>
-  <entry>
-    <title>第十课</title>
-    <url>/2020/05/22/%E7%AC%AC%E5%8D%81%E8%AF%BE/</url>
-    <content><![CDATA[<p>进程通信</p>
-<a id="more"></a>
-<p><img src="/2020/05/22/%E7%AC%AC%E5%8D%81%E8%AF%BE/1.PNG" alt="1"><br>进程通信是指进程之间的信息交换<br>进程就是分配系统资源的单位（包括内存地址空间），因此各进程拥有的内存地址空间相互独立。<br>为了保证安全，一个进程不能直接访问另一个进程的地址空间。<br><img src="/2020/05/22/%E7%AC%AC%E5%8D%81%E8%AF%BE/2.PNG" alt="2"><br><img src="/2020/05/22/%E7%AC%AC%E5%8D%81%E8%AF%BE/3.PNG" alt><br><u><strong>消息传递</strong></u><br>进程间的数据交换以格式化的消息为单位，进程通过操作系统提供的“发送消息/接受消息”两个原语进行数据交换。</p>
-<p><img src="/2020/05/22/%E7%AC%AC%E5%8D%81%E8%AF%BE/4.PNG" alt></p>
-<p><img src="/2020/05/22/%E7%AC%AC%E5%8D%81%E8%AF%BE/5.PNG" alt></p>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>]]></content>
-  </entry>
-  <entry>
-    <title>第十四课</title>
-    <url>/2020/05/26/%E7%AC%AC%E5%8D%81%E5%9B%9B%E8%AF%BE/</url>
-    <content><![CDATA[<h2 id="调度算法的评价指标"><a href="#调度算法的评价指标" class="headerlink" title="调度算法的评价指标"></a>调度算法的评价指标</h2><h3 id="cpu利用率"><a href="#cpu利用率" class="headerlink" title="cpu利用率"></a>cpu利用率</h3><p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E5%9B%9B%E8%AF%BE/1.png" alt></p>
-<h3 id="系统吞吐量"><a href="#系统吞吐量" class="headerlink" title="系统吞吐量"></a>系统吞吐量</h3><p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E5%9B%9B%E8%AF%BE/2.png" alt></p>
-<h3 id="周转时间"><a href="#周转时间" class="headerlink" title="周转时间"></a>周转时间</h3><p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E5%9B%9B%E8%AF%BE/3.png" alt></p>
-<p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E5%9B%9B%E8%AF%BE/4.png" alt></p>
-<h3 id="等待时间"><a href="#等待时间" class="headerlink" title="等待时间"></a>等待时间</h3><p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E5%9B%9B%E8%AF%BE/5.png" alt></p>
-<h3 id="响应时间"><a href="#响应时间" class="headerlink" title="响应时间"></a>响应时间</h3><p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E5%9B%9B%E8%AF%BE/6.png" alt></p>
-<p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E5%9B%9B%E8%AF%BE/7.png" alt></p>
+<h3 id="进程的切换与过程"><a href="#进程的切换与过程" class="headerlink" title="进程的切换与过程"></a>进程的切换与过程</h3><p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E4%B8%89%E8%AF%BE/5.png" alt=""></p>
+<p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E4%B8%89%E8%AF%BE/6.png" alt=""></p>
+<p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E4%B8%89%E8%AF%BE/7.png" alt=""></p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -448,6 +357,69 @@
       </script>]]></content>
   </entry>
   <entry>
+    <title>第十二课</title>
+    <url>/2020/05/26/%E7%AC%AC%E5%8D%81%E4%BA%8C%E8%AF%BE/</url>
+    <content><![CDATA[<h2 id="处理机调度的概念与层次"><a href="#处理机调度的概念与层次" class="headerlink" title="处理机调度的概念与层次"></a>处理机调度的概念与层次</h2><h3 id="调度的基本概念"><a href="#调度的基本概念" class="headerlink" title="调度的基本概念"></a>调度的基本概念</h3><p>***当有一堆人物要处理，但由于资源有限，这些事情没法同时处理。这就需要确定某种规则来决定处理这些人物的顺序，这就是“调度”研究的问题。</p>
+<p>***在多道程序系统中，进程的数量往往多于处理机的个数的，这样不可能同时并行地处理各个进程。处理机调度，就是从就绪队列中按照一定的算法选择一个进程并将处理机分配给它运行，以实现进程的并发执行</p>
+<h4 id="高级调度"><a href="#高级调度" class="headerlink" title="高级调度"></a>高级调度</h4><p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E4%BA%8C%E8%AF%BE/1.PNG" alt=""></p>
+<h3 id="中级调度"><a href="#中级调度" class="headerlink" title="中级调度"></a>中级调度</h3><p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E4%BA%8C%E8%AF%BE/2.PNG" alt=""></p>
+<p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E4%BA%8C%E8%AF%BE/3.PNG" alt=""></p>
+<h3 id="低级调度"><a href="#低级调度" class="headerlink" title="低级调度"></a>低级调度</h3><p>低级调度(进程调度)，其主要任务是按照某种方法和策略从就绪队列中选取一个进程，将处理机分配给它。</p>
+<p>进程调度是操作系统中最基本的一种调度，在一般的操作系统中都必须配置进程调度。</p>
+<p>进程调度的频率很高，一般几十毫秒一次。</p>
+<p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E4%BA%8C%E8%AF%BE/4.PNG" alt=""></p>
+<p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E4%BA%8C%E8%AF%BE/5.PNG" alt="5"></p>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+  </entry>
+  <entry>
+    <title>第十四课</title>
+    <url>/2020/05/26/%E7%AC%AC%E5%8D%81%E5%9B%9B%E8%AF%BE/</url>
+    <content><![CDATA[<h2 id="调度算法的评价指标"><a href="#调度算法的评价指标" class="headerlink" title="调度算法的评价指标"></a>调度算法的评价指标</h2><h3 id="cpu利用率"><a href="#cpu利用率" class="headerlink" title="cpu利用率"></a>cpu利用率</h3><p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E5%9B%9B%E8%AF%BE/1.png" alt=""></p>
+<h3 id="系统吞吐量"><a href="#系统吞吐量" class="headerlink" title="系统吞吐量"></a>系统吞吐量</h3><p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E5%9B%9B%E8%AF%BE/2.png" alt=""></p>
+<h3 id="周转时间"><a href="#周转时间" class="headerlink" title="周转时间"></a>周转时间</h3><p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E5%9B%9B%E8%AF%BE/3.png" alt=""></p>
+<p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E5%9B%9B%E8%AF%BE/4.png" alt=""></p>
+<h3 id="等待时间"><a href="#等待时间" class="headerlink" title="等待时间"></a>等待时间</h3><p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E5%9B%9B%E8%AF%BE/5.png" alt=""></p>
+<h3 id="响应时间"><a href="#响应时间" class="headerlink" title="响应时间"></a>响应时间</h3><p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E5%9B%9B%E8%AF%BE/6.png" alt=""></p>
+<p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E5%9B%9B%E8%AF%BE/7.png" alt=""></p>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+  </entry>
+  <entry>
     <title>第四课</title>
     <url>/2020/05/17/%E7%AC%AC%E5%9B%9B%E8%AF%BE/</url>
     <content><![CDATA[<p>  操作系统的运行机制和体系结构</p>
@@ -462,6 +434,34 @@
 <p><img src="/2020/05/17/%E7%AC%AC%E5%9B%9B%E8%AF%BE/7.jpg" alt="7"></p>
 <p><img src="/2020/05/17/%E7%AC%AC%E5%9B%9B%E8%AF%BE/8.jpg" alt="8"></p>
 <p><img src="/2020/05/17/%E7%AC%AC%E5%9B%9B%E8%AF%BE/9.jpg" alt="9"></p>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+  </entry>
+  <entry>
+    <title>第十课</title>
+    <url>/2020/05/22/%E7%AC%AC%E5%8D%81%E8%AF%BE/</url>
+    <content><![CDATA[<p>进程通信</p>
+<a id="more"></a>
+<p><img src="/2020/05/22/%E7%AC%AC%E5%8D%81%E8%AF%BE/1.PNG" alt="1"><br>进程通信是指进程之间的信息交换<br>进程就是分配系统资源的单位（包括内存地址空间），因此各进程拥有的内存地址空间相互独立。<br>为了保证安全，一个进程不能直接访问另一个进程的地址空间。<br><img src="/2020/05/22/%E7%AC%AC%E5%8D%81%E8%AF%BE/2.PNG" alt="2"><br><img src="/2020/05/22/%E7%AC%AC%E5%8D%81%E8%AF%BE/3.PNG" alt=""><br><u><strong>消息传递</strong></u><br>进程间的数据交换以格式化的消息为单位，进程通过操作系统提供的“发送消息/接受消息”两个原语进行数据交换。</p>
+<p><img src="/2020/05/22/%E7%AC%AC%E5%8D%81%E8%AF%BE/4.PNG" alt=""></p>
+<p><img src="/2020/05/22/%E7%AC%AC%E5%8D%81%E8%AF%BE/5.PNG" alt=""></p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
