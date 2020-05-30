@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-05-27T07:40:17.387Z</updated>
+  <updated>2020-05-30T14:28:33.788Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,13 +17,170 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>第二十二课</title>
+    <link href="http://yoursite.com/2020/05/30/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%BA%8C%E8%AF%BE/"/>
+    <id>http://yoursite.com/2020/05/30/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%BA%8C%E8%AF%BE/</id>
+    <published>2020-05-30T14:28:33.590Z</published>
+    <updated>2020-05-30T14:28:33.788Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="生产者消费者问题"><a href="#生产者消费者问题" class="headerlink" title="生产者消费者问题"></a>生产者消费者问题</h2><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;生产者消费者问题&quot;&gt;&lt;a href=&quot;#生产者消费者问题&quot; class=&quot;headerlink&quot; title=&quot;生产者消费者问题&quot;&gt;&lt;/a&gt;生产者消费者问题&lt;/h2&gt;&lt;script&gt;
+        document.querySelectorAll(&#39;.gith
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>第二十一课</title>
+    <link href="http://yoursite.com/2020/05/30/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E8%AF%BE/"/>
+    <id>http://yoursite.com/2020/05/30/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E8%AF%BE/</id>
+    <published>2020-05-30T14:09:59.728Z</published>
+    <updated>2020-05-30T14:27:46.957Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="用信号量实现进程同步、进程互斥"><a href="#用信号量实现进程同步、进程互斥" class="headerlink" title="用信号量实现进程同步、进程互斥"></a>用信号量实现进程同步、进程互斥</h2><h3 id="信号量机制实现进程互斥"><a href="#信号量机制实现进程互斥" class="headerlink" title="信号量机制实现进程互斥"></a>信号量机制实现进程互斥</h3><p><img src="/2020/05/30/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E8%AF%BE/1.png" alt=""></p><h3 id="信号量机制实现进程同步"><a href="#信号量机制实现进程同步" class="headerlink" title="信号量机制实现进程同步"></a>信号量机制实现进程同步</h3><p>进程同步：要让各并发进程按要求有序地推进。</p><p><img src="/2020/05/30/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E8%AF%BE/2.png" alt=""></p><p><img src="/2020/05/30/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E8%AF%BE/3.png" alt=""></p><h3 id="信号量机制实现前驱关系"><a href="#信号量机制实现前驱关系" class="headerlink" title="信号量机制实现前驱关系"></a>信号量机制实现前驱关系</h3><p><img src="/2020/05/30/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E8%AF%BE/4.png" alt=""></p><p><img src="/2020/05/30/%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E8%AF%BE/5.png" alt=""></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;用信号量实现进程同步、进程互斥&quot;&gt;&lt;a href=&quot;#用信号量实现进程同步、进程互斥&quot; class=&quot;headerlink&quot; title=&quot;用信号量实现进程同步、进程互斥&quot;&gt;&lt;/a&gt;用信号量实现进程同步、进程互斥&lt;/h2&gt;&lt;h3 id=&quot;信号量机制实现进程互斥&quot;&gt;
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>第二十课</title>
+    <link href="http://yoursite.com/2020/05/30/%E7%AC%AC%E4%BA%8C%E5%8D%81%E8%AF%BE/"/>
+    <id>http://yoursite.com/2020/05/30/%E7%AC%AC%E4%BA%8C%E5%8D%81%E8%AF%BE/</id>
+    <published>2020-05-30T05:53:36.594Z</published>
+    <updated>2020-05-30T10:59:57.956Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="信号量机制"><a href="#信号量机制" class="headerlink" title="信号量机制"></a>信号量机制</h2><p><img src="/2020/05/30/%E7%AC%AC%E4%BA%8C%E5%8D%81%E8%AF%BE/1.PNG" alt=""></p><p>wait、signal原语通常简称为P、V操作</p><p><img src="/2020/05/30/%E7%AC%AC%E4%BA%8C%E5%8D%81%E8%AF%BE/2.PNG" alt=""></p><p>整型信号量</p><p><img src="/2020/05/30/%E7%AC%AC%E4%BA%8C%E5%8D%81%E8%AF%BE/3.PNG" alt=""></p><p>!<img src="/2020/05/30/%E7%AC%AC%E4%BA%8C%E5%8D%81%E8%AF%BE/4.png" alt=""></p><p><img src="/2020/05/30/%E7%AC%AC%E4%BA%8C%E5%8D%81%E8%AF%BE/5-1590836394711.png" alt=""></p><p><img src="/2020/05/30/%E7%AC%AC%E4%BA%8C%E5%8D%81%E8%AF%BE/6.png" alt="6"></p><p><img src="/2020/05/30/%E7%AC%AC%E4%BA%8C%E5%8D%81%E8%AF%BE/7.png" alt="7"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;信号量机制&quot;&gt;&lt;a href=&quot;#信号量机制&quot; class=&quot;headerlink&quot; title=&quot;信号量机制&quot;&gt;&lt;/a&gt;信号量机制&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;/2020/05/30/%E7%AC%AC%E4%BA%8C%E5%8D%81%E8%AF%BE
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>第十九课</title>
+    <link href="http://yoursite.com/2020/05/30/%E7%AC%AC%E5%8D%81%E4%B9%9D%E8%AF%BE/"/>
+    <id>http://yoursite.com/2020/05/30/%E7%AC%AC%E5%8D%81%E4%B9%9D%E8%AF%BE/</id>
+    <published>2020-05-30T05:50:59.089Z</published>
+    <updated>2020-05-30T05:50:59.239Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="进程互斥的硬件实现方法"><a href="#进程互斥的硬件实现方法" class="headerlink" title="进程互斥的硬件实现方法"></a>进程互斥的硬件实现方法</h2><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;进程互斥的硬件实现方法&quot;&gt;&lt;a href=&quot;#进程互斥的硬件实现方法&quot; class=&quot;headerlink&quot; title=&quot;进程互斥的硬件实现方法&quot;&gt;&lt;/a&gt;进程互斥的硬件实现方法&lt;/h2&gt;&lt;script&gt;
+        document.querySelect
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>第十八课</title>
+    <link href="http://yoursite.com/2020/05/30/%E7%AC%AC%E5%8D%81%E5%85%AB%E8%AF%BE/"/>
+    <id>http://yoursite.com/2020/05/30/%E7%AC%AC%E5%8D%81%E5%85%AB%E8%AF%BE/</id>
+    <published>2020-05-30T05:43:48.943Z</published>
+    <updated>2020-05-30T05:49:48.596Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="进程互斥的软件实现方法"><a href="#进程互斥的软件实现方法" class="headerlink" title="进程互斥的软件实现方法"></a>进程互斥的软件实现方法</h2><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;进程互斥的软件实现方法&quot;&gt;&lt;a href=&quot;#进程互斥的软件实现方法&quot; class=&quot;headerlink&quot; title=&quot;进程互斥的软件实现方法&quot;&gt;&lt;/a&gt;进程互斥的软件实现方法&lt;/h2&gt;&lt;script&gt;
+        document.querySelect
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>第十七课</title>
+    <link href="http://yoursite.com/2020/05/30/%E7%AC%AC%E5%8D%81%E4%B8%83%E8%AF%BE/"/>
+    <id>http://yoursite.com/2020/05/30/%E7%AC%AC%E5%8D%81%E4%B8%83%E8%AF%BE/</id>
+    <published>2020-05-30T02:54:19.701Z</published>
+    <updated>2020-05-30T05:43:05.795Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="进程同步-进程互斥"><a href="#进程同步-进程互斥" class="headerlink" title="进程同步 进程互斥"></a>进程同步 进程互斥</h2><h3 id="什么是进程同步"><a href="#什么是进程同步" class="headerlink" title="什么是进程同步"></a>什么是进程同步</h3><p>进程具有异步性的特征。异步性是指，各并发执行的进程以各自独立的、不可预知的速度向前推进。<img src="/2020/05/30/%E7%AC%AC%E5%8D%81%E4%B8%83%E8%AF%BE/1.PNG" alt=""></p><h3 id="什么是进程互斥"><a href="#什么是进程互斥" class="headerlink" title="什么是进程互斥"></a>什么是进程互斥</h3><p><img src="/2020/05/30/%E7%AC%AC%E5%8D%81%E4%B8%83%E8%AF%BE/2.PNG" alt=""></p><p><img src="/2020/05/30/%E7%AC%AC%E5%8D%81%E4%B8%83%E8%AF%BE/3.PNG" alt=""></p><p><img src="/2020/05/30/%E7%AC%AC%E5%8D%81%E4%B8%83%E8%AF%BE/4.PNG" alt=""></p><p><img src="/2020/05/30/%E7%AC%AC%E5%8D%81%E4%B8%83%E8%AF%BE/5.PNG" alt=""></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;进程同步-进程互斥&quot;&gt;&lt;a href=&quot;#进程同步-进程互斥&quot; class=&quot;headerlink&quot; title=&quot;进程同步 进程互斥&quot;&gt;&lt;/a&gt;进程同步 进程互斥&lt;/h2&gt;&lt;h3 id=&quot;什么是进程同步&quot;&gt;&lt;a href=&quot;#什么是进程同步&quot; class=&quot;he
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>第十六课</title>
+    <link href="http://yoursite.com/2020/05/27/%E7%AC%AC%E5%8D%81%E5%85%AD%E8%AF%BE/"/>
+    <id>http://yoursite.com/2020/05/27/%E7%AC%AC%E5%8D%81%E5%85%AD%E8%AF%BE/</id>
+    <published>2020-05-27T10:03:39.860Z</published>
+    <updated>2020-05-30T02:53:27.986Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="调度算法"><a href="#调度算法" class="headerlink" title="调度算法"></a>调度算法</h2><p><img src="/2020/05/27/%E7%AC%AC%E5%8D%81%E5%85%AD%E8%AF%BE/1.png" alt=""></p><h3 id="时间片轮转（RR）"><a href="#时间片轮转（RR）" class="headerlink" title="时间片轮转（RR）"></a>时间片轮转（RR）</h3><h4 id="时间片为2"><a href="#时间片为2" class="headerlink" title="时间片为2"></a>时间片为2</h4><p><img src="/2020/05/27/%E7%AC%AC%E5%8D%81%E5%85%AD%E8%AF%BE/2.png" alt=""></p><p><img src="/2020/05/27/%E7%AC%AC%E5%8D%81%E5%85%AD%E8%AF%BE/3.png" alt="3"></p><p><img src="/2020/05/27/%E7%AC%AC%E5%8D%81%E5%85%AD%E8%AF%BE/4.PNG" alt="4"></p><h4 id="时间片为5"><a href="#时间片为5" class="headerlink" title="时间片为5"></a>时间片为5</h4><p><img src="/2020/05/27/%E7%AC%AC%E5%8D%81%E5%85%AD%E8%AF%BE/5.png" alt=""></p><p><img src="/2020/05/27/%E7%AC%AC%E5%8D%81%E5%85%AD%E8%AF%BE/6.png" alt="6"></p><p><img src="/2020/05/27/%E7%AC%AC%E5%8D%81%E5%85%AD%E8%AF%BE/7.PNG" alt=""></p><p><img src="/2020/05/27/%E7%AC%AC%E5%8D%81%E5%85%AD%E8%AF%BE/8.png" alt=""></p><p><img src="/2020/05/27/%E7%AC%AC%E5%8D%81%E5%85%AD%E8%AF%BE/9.png" alt=""></p><p><img src="/2020/05/27/%E7%AC%AC%E5%8D%81%E5%85%AD%E8%AF%BE/10.PNG" alt=""></p><p><img src="/2020/05/27/%E7%AC%AC%E5%8D%81%E5%85%AD%E8%AF%BE/11.png" alt=""></p><h3 id="优先级调度算法"><a href="#优先级调度算法" class="headerlink" title="优先级调度算法"></a>优先级调度算法</h3><p><img src="/2020/05/27/%E7%AC%AC%E5%8D%81%E5%85%AD%E8%AF%BE/12.PNG" alt=""></p><p><img src="/2020/05/27/%E7%AC%AC%E5%8D%81%E5%85%AD%E8%AF%BE/16.PNG" alt=""></p><p><img src="/2020/05/27/%E7%AC%AC%E5%8D%81%E5%85%AD%E8%AF%BE/13.PNG" alt=""></p><p><img src="/2020/05/27/%E7%AC%AC%E5%8D%81%E5%85%AD%E8%AF%BE/14.PNG" alt="14"></p><p><img src="/2020/05/27/%E7%AC%AC%E5%8D%81%E5%85%AD%E8%AF%BE/15.PNG" alt="15"></p><h3 id="多级反馈队列调度算法"><a href="#多级反馈队列调度算法" class="headerlink" title="多级反馈队列调度算法"></a>多级反馈队列调度算法</h3><p><img src="/2020/05/27/%E7%AC%AC%E5%8D%81%E5%85%AD%E8%AF%BE/17.PNG" alt=""></p><p><img src="/2020/05/27/%E7%AC%AC%E5%8D%81%E5%85%AD%E8%AF%BE/18.PNG" alt=""></p><p><img src="/2020/05/27/%E7%AC%AC%E5%8D%81%E5%85%AD%E8%AF%BE/19.PNG" alt=""></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;调度算法&quot;&gt;&lt;a href=&quot;#调度算法&quot; class=&quot;headerlink&quot; title=&quot;调度算法&quot;&gt;&lt;/a&gt;调度算法&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;/2020/05/27/%E7%AC%AC%E5%8D%81%E5%85%AD%E8%AF%BE/1.p
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>第十五课</title>
     <link href="http://yoursite.com/2020/05/26/%E7%AC%AC%E5%8D%81%E4%BA%94%E8%AF%BE/"/>
     <id>http://yoursite.com/2020/05/26/%E7%AC%AC%E5%8D%81%E4%BA%94%E8%AF%BE/</id>
     <published>2020-05-26T15:23:13.497Z</published>
-    <updated>2020-05-27T07:40:17.387Z</updated>
+    <updated>2020-05-27T10:03:05.841Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="FCFS、SJF、HRRN调度算法"><a href="#FCFS、SJF、HRRN调度算法" class="headerlink" title="FCFS、SJF、HRRN调度算法"></a>FCFS、SJF、HRRN调度算法</h2><p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E4%BA%94%E8%AF%BE/1.PNG" alt></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    <content type="html"><![CDATA[<h2 id="FCFS、SJF、HRRN调度算法"><a href="#FCFS、SJF、HRRN调度算法" class="headerlink" title="FCFS、SJF、HRRN调度算法"></a>FCFS、SJF、HRRN调度算法</h2><p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E4%BA%94%E8%AF%BE/1.PNG" alt=""></p><h3 id="先来先服务（FCFS）"><a href="#先来先服务（FCFS）" class="headerlink" title="先来先服务（FCFS）"></a>先来先服务（FCFS）</h3><p>周转时间=完成时间-到达时间 </p><p>带权周转时间=周转时间/运行时间</p><p>等待时间=周转时间-运行时间</p><p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E4%BA%94%E8%AF%BE/2.PNG" alt=""></p><p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E4%BA%94%E8%AF%BE/3.PNG" alt=""></p><p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E4%BA%94%E8%AF%BE/4.PNG" alt=""></p><h3 id="短作业优先（SJF）——-非抢占式"><a href="#短作业优先（SJF）——-非抢占式" class="headerlink" title="短作业优先（SJF）——-非抢占式"></a>短作业优先（SJF）——-非抢占式</h3><p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E4%BA%94%E8%AF%BE/5.PNG" alt=""></p><h3 id="短作业优先（SJF）——-抢占式"><a href="#短作业优先（SJF）——-抢占式" class="headerlink" title="短作业优先（SJF）——-抢占式"></a>短作业优先（SJF）——-抢占式</h3><p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E4%BA%94%E8%AF%BE/6.PNG" alt=""></p><p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E4%BA%94%E8%AF%BE/8.PNG" alt=""></p><h3 id="高响应比优先（HRRN）"><a href="#高响应比优先（HRRN）" class="headerlink" title="高响应比优先（HRRN）"></a>高响应比优先（HRRN）</h3><p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E4%BA%94%E8%AF%BE/9.png" alt=""></p><p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E4%BA%94%E8%AF%BE/10.png" alt=""></p><p><img src="/2020/05/26/%E7%AC%AC%E5%8D%81%E4%BA%94%E8%AF%BE/11.png" alt=""></p><p><a href="https://yuhuijiu.oss-cn-beijing.aliyuncs.com/img/4b961df23394fd72994a03f58f9c516f.png" target="_blank" rel="noopener">https://yuhuijiu.oss-cn-beijing.aliyuncs.com/img/4b961df23394fd72994a03f58f9c516f.png</a></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
     <summary type="html">
     
@@ -269,45 +426,6 @@
     <summary type="html">
     
       &lt;p&gt;没经历我的磨难，就别劝我善良&lt;/p&gt;
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>第二课</title>
-    <link href="http://yoursite.com/2020/05/16/%E7%AC%AC%E4%BA%8C%E8%AF%BE/"/>
-    <id>http://yoursite.com/2020/05/16/%E7%AC%AC%E4%BA%8C%E8%AF%BE/</id>
-    <published>2020-05-16T06:45:36.100Z</published>
-    <updated>2020-05-16T14:31:49.645Z</updated>
-    
-    <content type="html"><![CDATA[<p>时光荏苒，旦夕之间，略有遗憾，似白驹过隙，蹉跎自悟。</p><a id="more"></a><p><img src="/2020/05/16/%E7%AC%AC%E4%BA%8C%E8%AF%BE/1.PNG" alt="1"></p><p>并发:指两个或多个事件在同一时间间隔内发生。这些事件宏观上是同时发生的，但微观上是交替发生的。</p><p>并行:指两个或多个事件在同一时刻同时发生。</p><p>共享即资源共享，是指系统中的资源可供内存中多个并发执行的进程共同使用</p><p><img src="/2020/05/16/%E7%AC%AC%E4%BA%8C%E8%AF%BE/2.PNG" alt="2"></p><p>并发和共享互为存在条件</p><p>虚拟:指一个物理上的实体变为若干个逻辑上的对应物。物理实体是实际存在的，而逻辑上对应物是用户感受到的</p><p>虚拟存储器，空分复用技术</p><p>异步:指在多道程序环境下，允许多个程序并发执行，但由于资源有限，进程的执行不是一贯到底的，而是走走停停，以不可预知的速度向前推进，这就是进程的异步性。</p><p><img src="/2020/05/16/%E7%AC%AC%E4%BA%8C%E8%AF%BE/3.PNG" alt="3"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;时光荏苒，旦夕之间，略有遗憾，似白驹过隙，蹉跎自悟。&lt;/p&gt;
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>第一课</title>
-    <link href="http://yoursite.com/2020/05/15/%E7%AC%AC%E4%B8%80%E8%AF%BE/"/>
-    <id>http://yoursite.com/2020/05/15/%E7%AC%AC%E4%B8%80%E8%AF%BE/</id>
-    <published>2020-05-15T08:08:30.408Z</published>
-    <updated>2020-05-26T10:50:59.874Z</updated>
-    
-    <content type="html"><![CDATA[<p>​                               操作系统的概念</p><p>   操作系统是指控制和管理整个计算机系统的硬件和软件资源，并合理的组织调度计算机的工作和资源的分配，<br>   以提供给用户和其他软件方便的接口和环境，它是计算机系统中最基本的系统软件。</p><a id="more"></a><p><img src="/2020/05/15/%E7%AC%AC%E4%B8%80%E8%AF%BE/1.PNG" alt="1"></p><p>​                         操作系统的功能和目标<br>进程是一个程序的执行过程。执行前需要将该程序放到内存中，才能被cpu处理。</p><p><img src="/2020/05/15/%E7%AC%AC%E4%B8%80%E8%AF%BE/2.PNG" alt="2"></p><p><img src="/2020/05/15/%E7%AC%AC%E4%B8%80%E8%AF%BE/3.PNG" alt="3"></p><p><img src="/2020/05/15/%E7%AC%AC%E4%B8%80%E8%AF%BE/4.PNG" alt="4"></p><p><img src="/2020/05/15/%E7%AC%AC%E4%B8%80%E8%AF%BE/5.PNG" alt="5"><br>广义指令=系统调用命令=广义指令<br><img src="/2020/05/15/%E7%AC%AC%E4%B8%80%E8%AF%BE/6.PNG" alt="6"><br><img src="/2020/05/15/%E7%AC%AC%E4%B8%80%E8%AF%BE/7.PNG" alt="7"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;​                               操作系统的概念&lt;/p&gt;
-&lt;p&gt;   操作系统是指控制和管理整个计算机系统的硬件和软件资源，并合理的组织调度计算机的工作和资源的分配，&lt;br&gt;   以提供给用户和其他软件方便的接口和环境，它是计算机系统中最基本的系统软件。&lt;/p&gt;
     
     </summary>
     
